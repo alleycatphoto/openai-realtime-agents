@@ -70,3 +70,15 @@ This fully specifies the agent set that was used in the interaction shown in the
 ## Core Contributors
 - Noah MacCallum - [noahmacca](https://x.com/noahmacca)
 - Ilan Bigio - [ibigio](https://github.com/ibigio)
+
+## Pushing to GitLab
+
+To push this code to GitLab, follow these steps:
+
+1. Initialize a new Git repository if you haven't already by running `git init` in the root directory of your project.
+2. Add all the files to the staging area using `git add .`.
+3. Commit the files with a message using `git commit -m "Initial commit"`.
+4. Create a new repository on GitLab. You can do this by navigating to GitLab, logging in, and clicking on the "New Project" button.
+5. Copy the repository URL provided by GitLab.
+6. Add the GitLab repository as a remote to your local repository using `git remote add origin <repository-url>`, replacing `<repository-url>` with the URL you copied.
+7. Push the code to the GitLab repository using `git push -u origin master`.
