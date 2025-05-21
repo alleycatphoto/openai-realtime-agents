@@ -1,0 +1,22 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+
+test:
+  stage: test
+  script:
+    - npm run lint
+    - npm test
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploying to production server..."
+    - # Add your deployment script here

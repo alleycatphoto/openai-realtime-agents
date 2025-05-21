@@ -82,3 +82,13 @@ To push this code to GitLab, follow these steps:
 5. Copy the repository URL provided by GitLab.
 6. Add the GitLab repository as a remote to your local repository using `git remote add origin <repository-url>`, replacing `<repository-url>` with the URL you copied.
 7. Push the code to the GitLab repository using `git push -u origin master`.
+
+## Setting up GitLab CI/CD
+
+To set up GitLab CI/CD for this project, follow these steps:
+
+1. Create a `.gitlab-ci.yml` file in the root directory of your project.
+2. Define the stages for your pipeline, such as build, test, and deploy.
+3. Add job definitions for each stage, specifying the script to run and any dependencies.
+4. Commit the `.gitlab-ci.yml` file to your repository.
+5. Push the changes to GitLab, and the pipeline will automatically run based on the configuration in the `.gitlab-ci.yml` file.
